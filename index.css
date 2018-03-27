@@ -1,0 +1,25 @@
+body{
+background-color:#0643F2;
+color:white;
+text-align:center;
+}
+h1{
+color:red;
+font-style:italic;
+text-align:center;
+}
+#news{
+background-color:silver;
+width: 50%;
+float:left;
+}
+h2{
+color:silver;
+font-style:italic;
+text-align:center;
+}
+#fun{
+background-color:red;
+width: 50%;
+float: right;
+}
