@@ -13,8 +13,9 @@ window.open(myVar,"_blank");
         <body>
                     <div id="news">
 		<h1>Links</h1>		
-                <select id="site"> 
-                    <option value="http://www.etf.ucg.ac.me">ETF-Novi</option>
+                <select id="site">
+                    <option select value="http://www.etf.ucg.ac.me">ETF-Novi</option>
+                    <option value="http://borisvuk.github.io/borisvuk/">Me</option> 
                     <option value="http://www.softpedia.com">Softpedia</option>
                     <option value="http://www.phoronix.com">Phoronix</option>
                     <option value="http://www.distrowatch.com">DistroWatch</option>
