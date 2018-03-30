@@ -10,8 +10,7 @@ myVar = document.getElementById('site').value;
 window.open(myVar,"_blank");
 }
 function logOFF(){
-    session_destroy();
-    document.location.href="index.php";
+    document.location.href="logout.php";
 }
 </script>	
         <body>
@@ -36,7 +35,7 @@ function logOFF(){
                 
                     </div>
                     <br>
-                    <button onclick="logOFF()" style="background-color:red">
+                    <button onclick="logOFF()" style="background-color:red; color:white">
                     Logout
                     </button>
 		THATS ALL FOLKS FOR NOW :D

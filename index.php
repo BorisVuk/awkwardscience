@@ -16,7 +16,7 @@ else{ echo "Nema te u DB ili si lose unio username i password ili neka greska";}
 <form method="POST" style="text-align:center">
     <input type="text" name="username" placeholder="Username">
     <input type="password" name="password" placeholder="Password">
-    <input type="submit" value="Login" name="btn" style="background-color:green">
+    <input type="submit" value="Login" name="btn" style="background-color:green; color:white">
     <br><i><b>Contact me to get u into DB</b></i>
     <br>
     <a href="mailto:zaboravni123@gmail.com?Subject=Hello%20again"><img src="email.gif"></a>
