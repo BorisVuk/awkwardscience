@@ -12,14 +12,11 @@ if($upit->rowCount()==1){
 }
 else{ echo "Nema te u DB ili si lose unio username i password ili neka greska";}
 }
-if(isset($_GET['logout'])){
-    session_unregister('username');
-}
 ?>
 <form method="POST" style="text-align:center">
     <input type="text" name="username" placeholder="Username">
     <input type="password" name="password" placeholder="Password">
-    <input type="submit" value="Login" name="btn">
+    <input type="submit" value="Login" name="btn" style="background-color:green">
     <br><i><b>Contact me to get u into DB</b></i>
     <br>
     <a href="mailto:zaboravni123@gmail.com?Subject=Hello%20again"><img src="email.gif"></a>

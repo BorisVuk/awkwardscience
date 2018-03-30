@@ -9,6 +9,10 @@ function goto(){
 myVar = document.getElementById('site').value;
 window.open(myVar,"_blank");
 }
+function logOFF(){
+    session_destroy();
+    document.location.href="index.php";
+}
 </script>	
         <body>
                     <div id="news">
@@ -31,8 +35,10 @@ window.open(myVar,"_blank");
                 <h2>Something_Dif</h2>
                 
                     </div>
-                    
-                    <br><a href='index.php?action=logout'>Logout</a>
+                    <br>
+                    <button onclick="logOFF()" style="background-color:red">
+                    Logout
+                    </button>
 		THATS ALL FOLKS FOR NOW :D
 		<br>
 		</body>
